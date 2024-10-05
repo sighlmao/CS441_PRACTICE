@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     // Khai báo các biến giao diện tại đây
-    EditText edtA, edtB, edtKQ;
+    EditText edtA, edtB, edtKQ
     Button btncong;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
