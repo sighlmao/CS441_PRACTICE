@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,6 +21,16 @@
             android:gravity="center"
             android:textColor="@android:color/holo_green_dark"
             android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_gravity ="center"
+            android:layout_marginTop="1500px"
+            android:text="OK"
+            android:textSize="18sp" />
+
         <Button
             android:text="Call Dialog"
             android:layout_width="wrap_content"
@@ -30,27 +38,22 @@
         android:id="@+id/btncall"
         android:layout_gravity="center_horizontal"
         android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Chào Hoang"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
-        <TextView
-            android:text="Chào lớp CR424"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView4"
-            android:gravity="center"
-            android:textSize="18sp"
-            android:textColor="@android:color/holo_green_dark" />
-        <Button
-            android:text="OK"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnok"
-            android:textSize="18sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
