@@ -27,7 +27,7 @@ public class childActivity extends AppCompatActivity {
             double gpa = Double.parseDouble(gpaInput.getText().toString());
 
             Intent resultIntent = new Intent();
-            resultIntent.putExtra("name", name);
+            resultIntent.putExtra("Họ và tên", name);
             resultIntent.putExtra("gpa", gpa);
 
             setResult(RESULT_OK, resultIntent);

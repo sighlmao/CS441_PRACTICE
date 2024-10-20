@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE && resultCode == RESULT_OK && data != null) {
-            String name = data.getStringExtra("name");
+            String name = data.getStringExtra("Họ và tên");
             double gpa = data.getDoubleExtra("gpa", 0.0);
 
             // Display the received data (name and GPA).
