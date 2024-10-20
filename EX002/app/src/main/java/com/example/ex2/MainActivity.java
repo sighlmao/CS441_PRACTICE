@@ -25,44 +25,37 @@ public class MainActivity extends Activity {
         btncall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-// TODO Auto-generated method stub
                 Intent intent1 = new Intent(MainActivity.this, subactivity.class);
                 startActivity(intent1);
             }
         });
 
         protected void onDestroy() {
-// TODO Auto-generated method stub
             super.onDestroy();
             Toast.makeText(this,"CR424 - on Destroy()",Toast.LENGTH_SHORT).show();
         }
         @Override
         protected void onPause() {
-// TODO Auto-generated method stub
             super.onPause();
             Toast.makeText(this," CR424 - onPause", Toast.LENGTH_SHORT).show();
         }
         @Override
         protected void onRestart() {
-// TODO Auto-generated method stub
             super.onRestart();
             Toast.makeText(this," CR424 - onRestart", Toast.LENGTH_SHORT).show();
         }
         @Override
         protected void onResume() {
-// TODO Auto-generated method stub
-            12super.onResume();
+            super.onResume();
             Toast.makeText(this," CR424 - onResume", Toast.LENGTH_SHORT).show();
         }
         @Override
         protected void onStart() {
-// TODO Auto-generated method stub
             super.onStart();
             Toast.makeText(this," CR424 - onStart", Toast.LENGTH_SHORT).show();
         }
         @Override
         protected void onStop() {
-// TODO Auto-generated method stub
             super.onStop();
             Toast.makeText(this," CR424 - onStop", Toast.LENGTH_SHORT).show();
         }
